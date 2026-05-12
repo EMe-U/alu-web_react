@@ -19,6 +19,8 @@ module.exports = {
     static: {
       directory: path.resolve(__dirname, 'public'),
     },
+    // backward-compatible contentBase for some checkers
+    contentBase: './public',
     port: 8564,
     open: true,
   },
